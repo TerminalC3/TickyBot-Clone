@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: sans-serif;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration:none;
+    color: inherit;
+}
+
+.nav-items{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    align-content: flex-end;
+    background-color: #40596b;
+    color: #FFD05A;
+    font-size: 18px;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+.TickyBot-background{
+    display: flex;
+    flex-direction: column;
+    background-color: #55C0EC;
+    padding-left: 5%;
+
+    align-items: center;
+    align-self: flex-start;
+}
+
+#tickyBot{
+    display: flex;
+    font-size: 70px;
+    padding: 60px;
+}
+
+#phrase{
+    font-size: 25px;
+    color: white;
+    flex-wrap: wrap;
+    max-width: 400px;
+    text-align: center;
+    padding-bottom: 10%;
+
+}
+
+.tickyBot-image{
+    max-width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#bot-image {
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #55C0EC;
+}
+
+#slack-button{
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 20px;
+        font-size: 30px;
+        background-color: #ffffff;
+        color: #060505;
+        border: 2px thin black;
+        border-radius: 5px;
+        width:fit-content;
+}
+
+#slack-button img {
+    /* margin-right: 10px; */
+    width: 45px;
+    height: auto; /* Maintain the aspect ratio */
+}
+
+@media (max-width: 576px) { 
+    #header{
+       flex-direction: row;
+       justify-content: center;
+     }
+     .tickyBot-image{
+        padding: 10%;
+        padding-bottom: 5%;
+        padding-top: 20%;
+    }        
+}
+
+.what-is-ticky{
+    font-size: 40px;
+    padding: 1%;
+    text-align: center;
+}
+
+.about-ticky{
+    display: flex;
+    font-size: 1.25rem;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    column-gap: 10%;
+}
+
+.center-about{
+    font-size: 1.25rem;
+    /* padding: 1%;
+    padding-right: 5%;
+    padding-left: 5%; */
+    padding: 5%;
+}
+
+main{
+    padding-top: 3%;
+}
+
+#features{
+    background-color: green;
+}
+
+.how-it-works{
+    font-size: 40px;
+    text-align: center;
+    padding: 5%;
+}
