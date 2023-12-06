@@ -3,52 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TickyBot</title>
     <link rel="stylesheet" href="main.css">
+    <title>TickyBot</title>
 </head>
 <body>
-    <div class="nav-bar">
-        <ul type="none" class="nav-items">
-            <li><a href="index.html">Home</a> </li>
-            <li><a href="index.html">About</a> </li>
-            <li><a href="index.html">Features</a> </li>
-            <li><a href="index.html">Add to Slack</a> </li>
-        </ul>
-      </div>
-      
-      <header id="header">
-        <div class="TickyBot-background">
-            <div id="tickyBot"><span class="bold-name">Ticky</span>Bot</div>
-            
-            <div id="phrase">Let your team manage their support tickets 100% inside Slack</p></div>
-            
-            <button id="slack-button">
-                <img src="slack image.svg">
-                <a href="https://slack.com/" class="main-button"> <span>Add to <strong>Slack</strong></span> </a> 
-            </button>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav-bar">Home</li>
+                <li>About</li>
+                <li>Features</li>
+                <li>Add to Slack</li>
+            </ul>
+        </nav>
+    </header>
 
-        </div>
-        <div class="tickyBot-image">
-            <img id="bot-image" src="bot.svg">
-        </div>
-      </header>
+    <div class="intro">
+        <div class="left">
+            <p class="ticky-title">
+                <span class="ticky-bold">Ticky</span>Bot
+            </p>
 
-      <main>
-        <section>
-            <div class="what-is-ticky">What is <b>Ticky</b>Bot</div>
+            <p class="title-desc">
+                Let your team manage their support tickets 100% inside Slack
+            </p>
 
-            <div class="about-ticky">
-                <div class="left-about"><p class="left-about"><b>Ticky</b>Bot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p></div>
-
-                <div class="right-about"><p>With TickyBot you can easily check if you've received new tickets, change their status, or write a reply, and the ticket will instantly update itself on our site.</p></div>
+            <div class="slack-button">
+                <button class="slack-button">
+                    <img class="slack-img" src="https://maknetaro.github.io/tickyBot/img/5e594ad76535670e7f227f79c6b72799.svg">
+                    <span>Add to <strong>Slack</strong></span>
+                </button>
             </div>
-            
-            <div class="center-about"><p>Support request shouldn't be handled through Slack's direct messages.<br> <i>Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could look into the issue.</i></p></div>
-        </section>
+        </div>
 
-        <section id="features">
-            <div class="how-it-works"> How It Works</div>
-        </section>
-    </main>
+        <div class="right">
+             <img class="bot-img" src="https://maknetaro.github.io/tickyBot/img/bot.svg">
+        </div>
+    </div>
+
+    <p class="what-is">
+        What is <strong> Ticky</strong>Bot
+    </p>
+
+    <div class="desc">
+
+        <div class="desc-col">
+            <span class="ticky-bold">Ticky</span>Bot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way,
+            you don't need to leave your beloved channel to assist your users, if you don't feel like it.
+        </div>
+
+        <div class="desc-col">
+            With <span class="ticky-bold">Ticky</span>Bot you can easily check if you've received new tickets, change their status,
+            or write a reply, and the ticket will instantly update itself on our site.
+        </div>
+
+    </div>
+
+    <p class="desc-close">
+        Support request shouldn't be handled through Slack's direct messages.<br>
+        <i>Image about someone asking silly questions and the workplace admin asking him/her 
+        to open a support ticket so other admins could look into the issue.</i>
+    </p>
+
+    <p class="how">
+        How It Works
+    </p>
+    
+    <div class="feature">
+        
+
+        <div class="how-col">
+            <img class="feature-img" src="https://maknetaro.github.io/tickyBot/img/5e294ff6045f826e1b4f452df8897fb8.svg">
+
+            <div class="how-desc">
+                You can add TickyBot to your Slack workplace by scrolling down or
+                 <a href="https://maknetaro.github.io/tickyBot/?ref=https://githubhelp.com#add">clicking here</a>
+            </div>
+        </div>
+
+        <div class="how-col">
+            <img class="feature-img" src="https://maknetaro.github.io/tickyBot/img/download.svg">
+
+            <div class="how-desc">
+                Your users can open a ticket by typing <span class="red-decor">/ticket</span> and their message into the chat field
+            </div>
+        </div>
+
+        <div class="how-col3">
+            <img class="feature-img" src="https://maknetaro.github.io/tickyBot/img/61dc5059d07b210a9e0a7881695a8e03.svg">
+
+            <div class="how-desc">
+                Once you or another admin solved their problems you can type <span class="red-decor">/ticket close #id</span> to close the ticket
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p class="start-using">
+            Start Using <span class="ticky-bold">Ticky</span>Bot Today
+        </p>
+
+        <p class="description">
+            <span class="ticky-bold">Ticky</span>Bot allows Slack teams to manage their support tickets 100% inside Slack, 
+            without having to switch between different apps.
+        </p>
+
+        <button clas="slack-button">
+            <img src="https://maknetaro.github.io/tickyBot/img/5e594ad76535670e7f227f79c6b72799.svg">
+            Add to <span class="slack-bold"> Slack </span>
+        </button>
+
+        <p class="end-desc">
+            ... so you don't need to go back and forth with another app.
+        </p>
+
+    </div>
+
+    <footer>
+        <div>
+            <p>
+                Made with ❤️ by maknetaRo<br>
+                Source code is available on my GitHub page<br>
+                The app is not created by, affiliated with, or supported by Slack Technologies, Inc
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
