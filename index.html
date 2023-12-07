@@ -1,24 +1,28 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>TickyBot</title>
+    <script src="ticky.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <ul class="nav-bar">
-                <li class="nav-bar">Home</li>
-                <li>About</li>
-                <li>Features</li>
-                <li>Add to Slack</li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Features">Features </a> </li>
+                <li><a href="#Slack">Add to Slack </a> </li>
             </ul>
         </nav>
     </header>
 
-    <div class="intro">
+    <div class="intro" id="Home">
         <div class="left">
             <p class="ticky-title">
                 <span class="ticky-bold">Ticky</span>Bot
@@ -27,13 +31,16 @@
             <p class="title-desc">
                 Let your team manage their support tickets 100% inside Slack
             </p>
-
+            
             <div class="slack-button">
-                <button class="slack-button">
-                    <img class="slack-img" src="https://maknetaro.github.io/tickyBot/img/5e594ad76535670e7f227f79c6b72799.svg">
-                    <span>Add to <strong>Slack</strong></span>
-                </button>
+                <a href="https://slack.com/">
+                    <button class="slack-button">
+                        <img class="slack-img" src="https://maknetaro.github.io/tickyBot/img/5e594ad76535670e7f227f79c6b72799.svg">
+                        <span>Add to <strong>Slack</strong></span>
+                    </button>
+                </a>
             </div>
+            
         </div>
 
         <div class="right">
@@ -41,7 +48,7 @@
         </div>
     </div>
 
-    <p class="what-is">
+    <p class="what-is" id="About">
         What is <strong> Ticky</strong>Bot
     </p>
 
@@ -65,19 +72,18 @@
         to open a support ticket so other admins could look into the issue.</i>
     </p>
 
-    <p class="how">
+    <p class="how" id="Features">
         How It Works
     </p>
     
-    <div class="feature">
-        
+    <div class="feature">    
 
         <div class="how-col">
             <img class="feature-img" src="https://maknetaro.github.io/tickyBot/img/5e294ff6045f826e1b4f452df8897fb8.svg">
 
             <div class="how-desc">
                 You can add TickyBot to your Slack workplace by scrolling down or
-                 <a href="https://maknetaro.github.io/tickyBot/?ref=https://githubhelp.com#add">clicking here</a>
+                 <a class="link" href="https://maknetaro.github.io/tickyBot/?ref=https://githubhelp.com#add">clicking here</a>
             </div>
         </div>
 
@@ -98,21 +104,23 @@
         </div>
     </div>
 
-    <div>
+    <div class="conclude" id="Slack">
         <p class="start-using">
-            Start Using <span class="ticky-bold">Ticky</span>Bot Today
+            Start Using <strong>Ticky</strong>Bot Today
         </p>
 
         <p class="description">
-            <span class="ticky-bold">Ticky</span>Bot allows Slack teams to manage their support tickets 100% inside Slack, 
+            <strong>Ticky</strong>Bot allows Slack teams to manage their support tickets 100% inside Slack, 
             without having to switch between different apps.
         </p>
 
-        <div class="slack-button">
-            <button class="slack-button">
-                <img class="slack-img" src="https://maknetaro.github.io/tickyBot/img/5e594ad76535670e7f227f79c6b72799.svg">
-                <span>Add to <strong>Slack</strong></span>
-            </button>
+        <div class="slack-button-div">
+            <a href="https://slack.com/">
+                <button class="slack-button-2">
+                    <img class="slack-img" src="https://maknetaro.github.io/tickyBot/img/5e594ad76535670e7f227f79c6b72799.svg">
+                    <span>Add to <strong>Slack</strong></span>
+                </button>
+            </a>
         </div>
 
         <p class="end-desc">
@@ -125,10 +133,15 @@
         <div>
             <p>
                 Made with ❤️ by maknetaRo<br>
-                Source code is available on my GitHub page<br>
+                Source code is available on my <a href="https://github.com/maknetaRo/tickyBot"> GitHub page </a><br>
                 The app is not created by, affiliated with, or supported by Slack Technologies, Inc
             </p>
         </div>
     </footer>
+    
+    <button onclick="goTop()" id="top-btn" title="go to top">
+        <img class="top-img" src="https://maknetaro.github.io/tickyBot/img/top.svg">
+    </button>
+
 </body>
 </html>
