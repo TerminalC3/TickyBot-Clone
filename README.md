@@ -1,7 +1,8 @@
 # TickyBot-Clone
 
 **Overview:**
-A clone of the TickyBot website created as a project for Chingu Voyage using flexbox
+A clone of the TickyBot website created as a project for Chingu Voyage using flexbox.  
+
 **Deployed in github pages** https://terminalc3.github.io/TickyBot-Clone/
 
 **Original website:**
