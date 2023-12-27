@@ -1,16 +1,3 @@
-/* 
-To-Do:
-
-Media queries for smaller screens
-
-??
-font specifications
-bot image sizing
-Animations
-
-*/
-
-
 *{
     margin:0;
 }
@@ -234,13 +221,6 @@ footer{
 }
 
 #top-btn {
-    /* display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    background-color: #FFD05A; 
-    padding: 15px; */
     
     display:none;
     position:fixed;
@@ -258,7 +238,7 @@ footer{
 }
 
 .top-img{
-width: 1.3em;  
+    width: 1.3em;
 }
   
 @media(max-width: 650px){
